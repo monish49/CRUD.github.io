@@ -1,13 +1,16 @@
-import BookList from './components/book_p';
-import './App.css';
+import BmiProj from './form/bmi';
+import './App.css'; 
 
 
-const App=()=>{
+function App  () {
   return (
     <div className="App">
-    <BookList/>
-    </div>
+      <BmiProj/>
+      
+      </div>
+
   );
 }
-
 export default App;
+
+
